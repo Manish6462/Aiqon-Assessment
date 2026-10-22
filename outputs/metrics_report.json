@@ -1,0 +1,29 @@
+{
+  "eta_prediction": {
+    "model": "XGBoost Regressor",
+    "metrics": {
+      "MAE": 96.3653,
+      "RMSE": 167.4139,
+      "R2": 0.4484,
+      "MAPE": 37.2576,
+      "CV_MAE_mean": 96.1478,
+      "CV_MAE_std": 0.5896
+    },
+    "train_samples": 76065,
+    "test_samples": 19017,
+    "num_features": 25
+  },
+  "delay_classification": {
+    "model": "XGBoost Classifier",
+    "metrics": {
+      "Accuracy": 0.8426,
+      "Precision": 0.2976,
+      "Recall": 0.6772,
+      "F1": 0.4135,
+      "AUC": 0.8511
+    },
+    "train_samples": 76065,
+    "test_samples": 19017,
+    "num_features": 25
+  }
+}

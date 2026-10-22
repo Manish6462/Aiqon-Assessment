@@ -1,0 +1,37 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+*.whl
+
+# ─── Virtual environments ──────────────────────────────────────────────────────
+venv/
+env/
+.env
+.venv/
+
+# ─── IDEs & editors ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ─── Large raw data files (too big for GitHub, downloaded separately) ─────────
+data/*.csv
+Data/*.csv
+# Keep the processed dataset as well (large)
+data/processed_shipments.csv
+Data/processed_shipments.csv
+
+# ─── Jupyter notebooks (not used here) ────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
